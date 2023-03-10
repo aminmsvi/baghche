@@ -16,7 +16,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "gardener"
+rootProject.name = "baghche"
 
 includeBuild("gradle-receipts")
 include(":app")

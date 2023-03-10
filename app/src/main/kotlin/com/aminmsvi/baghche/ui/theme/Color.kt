@@ -1,4 +1,4 @@
-package com.aminmsvi.gardener.ui.theme
+package com.aminmsvi.baghche.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

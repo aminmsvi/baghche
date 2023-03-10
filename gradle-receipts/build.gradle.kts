@@ -17,19 +17,19 @@ dependencies {
 gradlePlugin {
     plugins {
         create("dependencies") {
-            id = "com.aminmsvi.gardener.dependencies"
+            id = "com.aminmsvi.baghche.dependencies"
             implementationClass = "com.aminmsvi.gradle.dependency.DependenciesPlugin"
         }
         create("dependencies-compose") {
-            id = "com.aminmsvi.gardener.dependency.compose"
+            id = "com.aminmsvi.baghche.dependency.compose"
             implementationClass = "com.aminmsvi.gradle.dependency.ComposeDependencyPlugin"
         }
         create("configure-application") {
-            id = "com.aminmsvi.gardener.configure.application"
+            id = "com.aminmsvi.baghche.configure.application"
             implementationClass = "com.aminmsvi.gradle.configure.ApplicationConfigurationPlugin"
         }
         create("configure-library") {
-            id = "com.aminmsvi.gardener.configure.library"
+            id = "com.aminmsvi.baghche.configure.library"
             implementationClass = "com.aminmsvi.gradle.configure.LibraryConfigurationPlugin"
         }
     }

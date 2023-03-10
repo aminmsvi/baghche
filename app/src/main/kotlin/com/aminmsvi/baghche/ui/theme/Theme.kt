@@ -1,4 +1,4 @@
-package com.aminmsvi.gardener.ui.theme
+package com.aminmsvi.baghche.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -38,7 +38,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun GardenerTheme(
+fun baghcheTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     dynamicColor: Boolean = true,
     content: @Composable () -> Unit
