@@ -16,6 +16,10 @@ dependencies {
 
 gradlePlugin {
     plugins {
+        create("dependencies") {
+            id = "com.aminmsvi.gardener.dependencies"
+            implementationClass = "com.aminmsvi.gradle.dependency.DependenciesPlugin"
+        }
         create("dependencies-compose") {
             id = "com.aminmsvi.gardener.dependency.compose"
             implementationClass = "com.aminmsvi.gradle.dependency.ComposeDependencyPlugin"
