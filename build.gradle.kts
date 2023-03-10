@@ -6,6 +6,7 @@ plugins {
     id("org.jetbrains.kotlin.android") version "1.8.10" apply false
     id("io.gitlab.arturbosch.detekt") version "1.22.0"
     id("org.jmailen.kotlinter") version "3.13.0" apply false
+    id("com.github.ben-manes.versions") version "0.46.0"
 }
 
 // configure detekt
