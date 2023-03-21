@@ -1,0 +1,8 @@
+root = true
+
+[*.{kt,kts}]
+max_line_length = 120
+ktlint_code_style = android
+ij_kotlin_allow_trailing_comma = true
+ij_kotlin_allow_trailing_comma_on_call_site = true
+continuation_indent_size=4
