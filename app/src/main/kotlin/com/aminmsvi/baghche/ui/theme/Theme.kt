@@ -111,8 +111,9 @@ fun BaghcheTheme(
         LocalLayoutDirection provides LayoutDirection.Rtl,
     ) {
         MaterialTheme(
-            colorScheme = colorScheme,
             typography = Typography,
+            shapes = Shapes,
+            colorScheme = colorScheme,
             content = content,
         )
     }
